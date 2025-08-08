@@ -1,0 +1,192 @@
+#topbar {
+    background: #07294d;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+#topbar .contact-info a {
+    line-height: 1;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+    color: #fff;
+}
+
+#topbar .contact-info i {
+    color: #428bca;
+}
+
+.clearfix {
+    padding: 0px 12px;
+}
+
+#topbar .contact-info .icofont-phone {
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+#MenuDiv {
+    background-color: #07294d !important;
+}
+
+.drop-down {
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    color: #103453;
+    background: #fff;
+}
+
+a.dropdown-item.dropdown-toggle::after {
+    color: #1324bc !important;
+}
+
+li.drop-down > a.dropdown-item:hover,
+li.drop-down a.dropdown-item:hover a:after {
+    color: #1324bc !important;
+    background-color: transparent;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 10%;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.nav-link {
+    color: white;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    content: " ";
+    float: right;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    border-radius: 6px 0 6px 6px;
+}
+
+a.nav-link.dropdown-toggle {
+    font: bold;
+    color: white;
+}
+
+.table-bordered > thead > tr > th {
+    background-color: #07294d;
+    color: white;
+}
+
+/* Additional inline styles */
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#profile .dropdown-menu li {
+    padding-left: 1em;
+    padding-bottom: 5px;
+}
+
+.login-user-align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-user-align > p {
+    padding-right: 25px;
+}
+
+h2 {
+    color: #ff6a00;
+}
+
+.login-box {
+    background-color: #07294D;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#pills-tab {
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.login-inner-section .nav-link {
+    padding: 0.5rem 0.2rem;
+    font-size: 14px;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+}
+
+.login-inner-section .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #EF731B;
+}
+
+.register-link,
+.register-link:hover,
+.click-here-link,
+.click-here-link:hover {
+    color: #EF731B;
+}
+
+.login-form-section > .tablinks a {
+    color: #EF731B;
+}
+
+.captcha_background {
+    background-image: url(../../Content/images/captchaimage.png);
+    width: 200px !important;
+    color: #000000 !important;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login-box .form-control,
+.login-box .form-control:focus {
+    background-color: #07294D;
+    color: #fff;
+}

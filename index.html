@@ -1,0 +1,467 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>UUCMS - ಸಮಗ್ರ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮತ್ತು ಕಾಲೇಜು ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆ </title>
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/Content/images/favicon.png" rel="icon">
+    <link href="/Content/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <!-- Vendor CSS Files -->
+    
+    <link rel="stylesheet" href="/Content/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/Content/dataTables.bootstrap5.3.min.css">
+    <link rel="stylesheet" href="/Content/jquery-ui.min-1.14.1.css">
+    <link rel="stylesheet" href="/Content/jquery-ui-css/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="/Content/bootstrap-multiselect-1.1.2.min.css">
+    <link rel="stylesheet" href="/Content/dataTables.dataTables.css">
+    <link rel="stylesheet" href="/Content/buttons.dataTables.css">
+    <link rel="stylesheet" href="/Content/css/select2.css">
+    <link rel="stylesheet" href="/Content/aos.css">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Content/style.css">
+    <link rel="stylesheet" href="/Content/Site.css">
+    <link rel="stylesheet" href="/Content/loader.css">
+    <link rel="stylesheet" href="/Styles/exam_styles.css">
+    <link rel="stylesheet" href="/Content/plugins.min.css">
+    <link href="/Areas/Scripts/yearpicker.css" rel="stylesheet" />
+
+    <link href="/Content/icofont.min.css" rel="stylesheet" />
+    <link href="/Content/icofont.woff" />
+    <link href="/Content/icofont.woff2" />
+    <link href="/Content/fontawesome-webfont.ttf" />
+    <link href="/Content/fontawesome-webfont.woff" />
+    <link href="/Content/fontawesome-webfont.woff2" />
+    <link href="/Content/font-awesome.min.css" rel="stylesheet" />
+
+    
+    <script src="/Scripts/jquery-3.7.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+    <script src="/Scripts/CaptchaLib.js"></script>
+    <script src="/Scripts/jquery-ui-1.14.1.min.js"></script>
+    <script src="/Scripts/aos.js"></script>
+    <script src="/Scripts/moment.min.js"></script>
+    <script src="/Scripts/aes.js"></script>
+
+    <style>
+
+        #topbar {
+            background: #07294d;
+            color: #fff;
+            padding: 5px 0;
+            font-size: 14px;
+        }
+
+            #topbar .contact-info a {
+                line-height: 1;
+                color: #fff;
+                transition: 0.3s;
+            }
+
+                #topbar .contact-info a:hover {
+                    color: #fff;
+                }
+
+            #topbar .contact-info i {
+                color: #428bca;
+            }
+
+        .clearfix {
+            padding: 0px 12px;
+        }
+
+        #topbar .contact-info .icofont-phone {
+            padding-left: 20px;
+            margin-left: 10px;
+        }
+
+        #MenuDiv {
+            background-color: #07294d !important;
+        }
+
+        .drop-down {
+            padding: 5px 5px;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: none;
+            color: #103453;
+            background: #fff;
+        }
+
+        a.dropdown-item.dropdown-toggle::after {
+            color: #1324bc !important;
+        }
+
+        li.drop-down > a.dropdown-item:hover, li.drop-down a.dropdown-item:hover a:after {
+            color: #1324bc !important;
+            background-color: transparent;
+        }
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+            .dropdown-submenu .dropdown-menu {
+                top: 10%;
+                left: 100%;
+                margin-top: -1px;
+            }
+
+        .navbar-nav li:hover > ul.dropdown-menu {
+            display: block;
+        }
+
+        .nav-link {
+            color: white;
+        }
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+            .dropdown-submenu > .dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: -6px;
+                margin-left: -1px;
+                -webkit-border-radius: 0 6px 6px 6px;
+                -moz-border-radius: 0 6px 6px;
+                border-radius: 0 6px 6px 6px;
+            }
+
+            .dropdown-submenu:hover > .dropdown-menu {
+                display: block;
+            }
+
+            .dropdown-submenu > a:after {
+                display: block;
+                content: " ";
+                float: right;
+                width: 0;
+                height: 0;
+                border-color: transparent;
+                border-style: solid;
+                border-width: 5px 0 5px 5px;
+                border-left-color: #ccc;
+                margin-top: 5px;
+                margin-right: -10px;
+            }
+
+            .dropdown-submenu:hover > a:after {
+                border-left-color: #fff;
+            }
+
+            .dropdown-submenu.pull-left {
+                float: none;
+            }
+
+                .dropdown-submenu.pull-left > .dropdown-menu {
+                    left: -100%;
+                    margin-left: 10px;
+                    -webkit-border-radius: 6px 0 6px 6px;
+                    -moz-border-radius: 6px 0 6px 6px;
+                    border-radius: 6px 0 6px 6px;
+                }
+
+        a.nav-link.dropdown-toggle {
+            font: bold;
+            color: white;
+        }
+
+        .table-bordered > thead > tr > th {
+            background-color: #07294d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    
+<style type="text/css">
+    .dropbtn {
+        background-color: #04AA6D;
+        color: white; 
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        
+    } 
+    #profile .dropdown-menu li {
+        padding-left: 1em;
+        padding-bottom: 5px;
+    }
+    .login-user-align {
+        display: flex;
+        justify-content: flex-end;
+    }
+        .login-user-align > p {
+            padding-right: 25px;
+        }
+</style>
+<header class="header-area">
+    <div class="container-fluid p-0">
+
+        <section id="topbar" class="d-lg-block rounded-top">
+            <div class="clearfix">
+                <div class="contact-info float-start">
+                    <i class="icofont-envelope"></i><a>contact-uucms.helpdesk@gmail.com</a>
+                </div>
+                <div class="social-links float-end me-18">
+                    <a class='whiteblack accessibility' href='#' onclick="changeColor()" title='Black and White'>A</a>
+                    <a class='standards accessibility' href='#' onclick="defaultColor()" title='Standard'>A</a>
+                    <button id="decreasetext" class="font-size-btn accessibility">
+                        <span>-</span>
+                    </button>
+                    <button id="resettext" class="font-size-btn accessibility">
+                        <span>A</span>
+                    </button>
+                    <button id="increasetext" class="font-size-btn accessibility">
+                        <span>+</span>
+                    </button>
+                    <a class="ms-4 text-white" id="chnageLan"><label class="knlan" onclick="onLinguistics(this)">ಕನ್ನಡ</label>|<label class="Enlan" onclick="onLinguistics(this)">English</label></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="kan_banner" class="banner" style="display:none">
+            <div class="row">
+                <div class="col-md-3 text-center align-self-center">
+                    <img src="/Content/images/index_kan/UUCMS_Logo-01.png" class="img-fluid" />
+                </div>
+                <div class="col-md-3 align-self-center">
+                    <img src="/Content/images/index_kan/sid_cm_kan.png" class="img-fluid" />
+                </div>
+                <div class="col-md-3 align-self-center">
+                    <img src="/Content/images/index_kan/new_min_kan.png" class="img-fluid" />
+                </div>
+                <div class="col-md-3 text-center align-self-center">
+                    <img src="/Content/images/index_kan/gok-logo-uucms-kn.png" class="img-fluid" />
+                </div>
+            </div>
+        </section>
+        <section id="eng_banner" class="banner">
+            <div class="row">
+                <div class="col-md-3 text-center align-self-center">
+                    <img src="/Content/images/index_kan/UUCMS_Logo-01.png" class="img-fluid" />
+                </div>
+                <div class="col-md-3 align-self-center">
+                    <img src="/Content/images/index_eng/sid_cm_eng.png" class="img-fluid" />
+                </div>
+                <div class="col-md-3 align-self-center">
+                    <img src="/Content/images/index_eng/new_min_eng.png" class="img-fluid" />
+                </div>
+                <div class="col-md-3 text-center align-self-center">
+                    <img src="/Content/images/index_eng/gok-logo-uucms-en.png" class="img-fluid" />
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</header>
+<script type="text/javascript">
+    function onLinguistics(element) {
+        
+        if ($(element).hasClass("knlan")) {
+            $("#eng_banner").hide();
+            $("#kan_banner").show();
+        }
+        else {
+            $("#kan_banner").hide();
+            $("#eng_banner").show();
+        }
+    }
+</script>
+    <div class="loader-modal" style="display:none;">
+        <div class="loader"></div>
+    </div>
+
+    <main id="main" class="main-head">
+        
+
+
+
+<style type="text/css">
+    h2 {
+        color: #ff6a00;
+    }
+
+    .login-box {
+        background-color: #07294D;
+        /* padding: 10px; */
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    #pills-tab {
+        background: #ccc;
+        border-radius: 5px;
+    }
+
+    .login-inner-section .nav-link {
+        padding: 0.5rem 0.2rem;
+        font-size: 14px;
+    }
+
+    .nav-pills .nav-link {
+        border-radius: .25rem;
+    }
+
+    .login-inner-section .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #EF731B;
+    }
+
+    .register-link, .register-link:hover, .click-here-link, .click-here-link:hover {
+        color: #EF731B;
+        /* text-decoration: none; */
+    }
+
+    .login-form-section > .tablinks a {
+        color: #EF731B;
+    }
+
+    .captcha_background {
+        background-image: url(../../Content/images/captchaimage.png);
+        padding: 0px 0px;
+        width: 200px !important;
+        color: #000000 !important;
+        font-weight: 700;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .login-box .form-control, .login-box .form-control:focus {
+        background-color: #07294D;
+        color: #fff;
+    }
+</style>
+<div class="row " style="min-height:100vh">
+    <div class="col-md-12" id="login-form" style="background-image: url('../../Content/images/loginpage-background-image.png');">
+        
+<link href="/Styles/style.css" rel="stylesheet" />
+<form action="/Login/Index" autocomplete="off" id="loginformsubmit" method="post"><input name="__RequestVerificationToken" type="hidden" value="qKdU3IKT51aXtUT7a-0yBvGVVzwpNqk9Vy7Lu5BKMY8K1DzcaHLvhI-0IZZTf4Clmuh0dprxVqBBXQN_Q-jKZSb_AtYXNfWbt8s8GWAKD8w1" />    <div class="_mn_df h-100 ">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="/Login/Index_Eng" class="float-end backtohome"><i class="fa fa-backward" aria-hidden="true">&nbsp;&nbsp;Back To Home</i></a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 login-box mx-auto" id="Form">
+            <div class="login-inner-section p-2">
+                <div class="nav-tabs-section">
+                    <ul class="nav nav-pills nav-fill d-flex flex-wrap gap-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link organization" id="pills-stateadmin-tab" data-bs-toggle="pill" href="#pills-stateadmin" role="tab" aria-controls="pills-stateadmin">State Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link organization" id="pills-university-tab" data-bs-toggle="pill" href="#pills-university" role="tab" aria-controls="pills-university">University</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link organization" id="pills-college-tab" data-bs-toggle="pill" href="#pills-college" role="tab" aria-controls="pills-college">College/PG Center</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active organization" id="pills-student-tab" data-bs-toggle="pill" href="#pills-student" role="tab" aria-controls="pills-student" aria-selected="true">Student</a>
+                        </li>
+                        <li class="nav-item ksou-regional">
+                            <a class="nav-link  organization" id="pills-ksou-tab" data-bs-toggle="pill" href="#pills-ksou" role="tab" aria-controls="pills-ksou">KSOU Reg Centre</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login-form-section mt-3">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade" id="pills-stateadmin" role="tabpanel" aria-labelledby="pills-stateadmin-tab"> </div>
+                        <div class="tab-pane fade" id="pills-university" role="tabpanel" aria-labelledby="pills-university-tab"> </div>
+                        <div class="tab-pane fade" id="pills-college" role="tabpanel" aria-labelledby="pills-college-tab"> </div>
+                        <div class="tab-pane fade" id="pills-student" role="tabpanel" aria-labelledby="pills-student-tab">
+                            <div class="d-flex justify-content-center">
+                                <div class="col-12 col-sm-6 col-md-6 d-flex justify-content-between">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" checked>
+                                        <label class="form-check-label" for="exampleRadios1">Regular Student</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2">
+                                        <label class="form-check-label" for="exampleRadios2">KSOU Student</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-ksou" role="tabpanel" aria-labelledby="pills-ksou-tab"> </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div>
+                        <label for="txtUserName" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="txtUserName" name="UserName" placeholder="Enter username">
+                    </div>
+                    <div>
+                        <label for="txtPassword" class="form-label">Password</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="txtPassword" name="Password" placeholder="Enter username">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-eye-slash" id="viewPassword"></i></span>
+                        </div>
+                    </div>
+                    <div class="form-text float-end text-white">
+                        <small>Forgot Password?<span class="ms-2"><a href="/Login/ForgotPassword" class="click-here-link">Click Here</a></span></small>
+                    </div>
+                </div> <br />
+                <div class="col-12">
+                    <div>
+                        <label for="Input_captcha">Enter Captcha</label>
+                    </div>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <div class="">
+                            <input type="text" class="form-control captcha_background" id="Generatedcaptcha" aria-label="captcha" aria-describedby="basic-addon2" style="color: #000000;" readonly>
+                        </div>
+                        <div class="">
+                            <img src="/Content/images/refresh-icon.png" alt="RefreshCaptcha" class="refresh-section" onclick="fn_refresh_captcha()" />
+                        </div>
+                        <div class="">
+                            <input type="text" class="form-control numericOnly" id="Input_captcha" maxlength="5" aria-describedby="emailHelp" placeholder="Enter Captcha">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="text-center mx-auto col-12">
+                        <button type="button" class="btn btn-primary login-btn col-sm-4 col-md-4" id="Submit">Log In</button>
+                    </div>
+                    <div class="text-center mt-3 tablinks" id="link3">
+                        <a href="/Content/Doc/AcademicsUserManual.pdf" target="_blank" class="text-orange">Download Academics Manual</a><br />
+                        <a href="/Content/Doc/UUCMS_College_Admin_Manual_V1.1_17092021 (1).pdf" target="_blank" class="text-orange">Download College Manual</a><br />
+                        <a href="/Content/Doc/FAQ.pdf" target="_blank" class="text-orange">Admission FAQ</a>
+                    </div>
+                    <div class="text-center mt-3 tablinks" id="link5">
+                        <a href="/Content/Doc/AcademicsUserManual.pdf" target="_blank" class="text-orange">Download Academics Manual</a><br />
+                        <a href="/Content/Doc/UUCMS_College_Admin_Manual_V1.1_17092021 (1).pdf" target="_blank" class="text-orange">Download College Manual</a><br />
+                        <a href="/Content/Doc/FAQ.pdf" target="_blank" class="text-orange">Admission FAQ</a>
+                    </div>
+                    <div class="text-center mt-3 tablinks" id="link4">
+                        <div class="register-link-section mt-4 text-center">
+                            <span class="ms-2"><a href="/Login/OnlineStudentRegistrationForm" class="register-link" id="studentlink">New Candidate Registration?</a></span>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="/Content/doc/Student Manual_v 1.0.pdf" target="_blank" class="text-orange cursor-pointer">Download Students Manual</a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3 tablinks" id="link2">
+                        <a href="/Content/doc/UUCMS_University_Admin_Manual_V2.1_17092021.pdf" target="_blank" class="text-orange">Download University Manual</a><br />
+                        <a href="" class="text-orange">Download Regional Center Manual</a>
+                    </div>
+                    <div class="text-center mt-3 tablinks" id="link1">
+                        <a href="" class="text-orange">Download State Admin Manual</a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <input htmlAttributes="{ id = HiddenUserName }" id="HiddenUserName" name="HiddenUserName" type="hidden" value="" />
+                    <input htmlAttributes="{ id = HiddenPassword }" id="HiddenPassword" name="Hidd
